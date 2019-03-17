@@ -268,21 +268,20 @@
 	margin: 10px 1%;
   width: 100%;
   height: 100%;
-	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
 }
 
 #kartica{
   margin-top: 3.5%;
-	width: 70%;
+	width: 85%;
 }
 
 .grid figure img {
 	position: relative;
 	display: block;
-	min-height: 100%;
-	max-width: 100%;
+	height: 100%;
+	width: 100%;
 	opacity: 0.8;
 }
 
