@@ -45,10 +45,6 @@
     padding: 0;
     }
 
-    .row{
-      margin-top: 5%;
-    }
-
     #banner {
      /* The image used */
      display: grid;
@@ -120,6 +116,7 @@
   .transparent_bg{
     background-color: rgba(170, 170, 170, 0.2);
     transition: background-color 0.5s ease-in;
+    margin-bottom: 3%;
   }
   .imgRight{
     width: 50%;
@@ -198,7 +195,6 @@
     .column {
       width: 100%;
       display: block;
-      margin-bottom: 20px;
     }
 
     section img{
@@ -273,8 +269,8 @@
 }
 
 #kartica{
-  margin-top: 4.5%;
-	width: 100%;
+  width: 100%;
+  margin-top: -25%;
 }
 
 .grid figure img {
@@ -282,7 +278,7 @@
 	display: block;
 	height: 100%;
 	width: 100%;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .grid figure figcaption {
@@ -396,5 +392,81 @@ figure.effect-sadie:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+.content-wrapper{
+  margin-top: 30%;
+}
 
+.element div{
+  font-size: 20px;
+  margin: auto;
+}
+
+footer{
+  display: block;
+  width: 100%;
+  background: rgb(195, 208, 214);
+}
+
+.element h2{
+  margin: 5px 0 !important;
+  font-size: 25px;
+}
+#footer{
+  margin: auto; 
+  max-width: 2000px;
+}
+
+#footer{
+  padding: 30px 150px;
+  width: 100%;
+  background: rgb(195, 208, 214);
+}
+
+#ostalo{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  color: white;
+}
+
+#ostalo ul li{
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+}
+
+#ostalo div{
+  padding: 5px 30px 5px 0px;
+}
+
+
+
+#footer img{
+  width: 300px;
+}
+
+@media only screen and (max-width: 1280px) {
+  
+ 
+  #footer img{
+      width: 250px;
+      margin: auto;
+  }
+
+  #ostalo div, #ostalo h2{
+      padding: 5px 30px 5px 5px;
+  }
+
+  #ostalo{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      color: white;
+  }
+  #footer{
+      padding: 0;
+  }
+
+  #logo{
+      display: flex;
+  }    
+}
    
